@@ -1,0 +1,1463 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>RentalGoo</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.jpg" rel="icon" />
+    <link href="assets/img/favicon.jpg" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <h1 class="sitenames">
+            <img src="assets/img/RENTALGOO_LOGO.png" alt="" />
+          </h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li>
+              <a href="#hero" class="active" data-i18n="nav_home">Início</a>
+            </li>
+            <li><a href="#about" data-i18n="nav_about">Sobre Nós</a></li>
+            <li><a href="#plans" data-i18n="nav_plans">Planos</a></li>
+            <li><a href="#services" data-i18n="nav_services">Vantagens</a></li>
+            <li>
+              <a href="#portfolio" data-i18n="nav_portfolio">Funcionalidades</a>
+            </li>
+            <li><a href="#why-us" data-i18n="nav_faq">FAQ</a></li>
+            <li><a href="#suport" data-i18n="nav_contact">Suporte</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a href="login.html" class="btn-getstarted" data-i18n="nav_login"
+          >Entrar</a
+        >
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="hero" class="hero section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+              <div class="hero-content">
+                <h1
+                  class="hero-headline"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-i18n="hero_title"
+                >
+                  Gerencie a Sua Frota de forma inteligente
+                </h1>
+
+                <p
+                  class="hero-text"
+                  data-aos="fade-up"
+                  data-aos-delay="350"
+                  data-i18n="hero_text"
+                >
+                  Plataforma completa para gestão de frotas, reservas e
+                  condutores. Reduza custos, aumente a produtividade e tome
+                  decisões com base em dados reais.
+                </p>
+
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                  <a href="register.html" class="cta-button">
+                    <span data-i18n="hero_btn_register"> Registrar-se</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+              <div class="hero-video-wrapper position-relative">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/qyGij0CzZiE?si=SMNN5gJvaz2TRJcG"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+
+                <a
+                  href="https://www.youtube.com/watch?v=qyGij0CzZiE"
+                  class="video-overlay glightbox d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-play-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-5 align-items-center">
+            <div
+              class="col-xl-6 aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <div class="about-images-wrapper">
+                <div class="image-main">
+                  <img
+                    src="assets/img/about/about-5.webp"
+                    alt="Equipa de trabalho"
+                    class="img-fluid"
+                  />
+                </div>
+
+                <div class="shape-pattern"></div>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-6 aos-init aos-animate"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              <div class="about-content">
+                <div class="section-subtitle" data-i18n="about_subtitle">
+                  Quem Somos
+                </div>
+                <h2 data-i18n="about_title">
+                  Inovando para o Sucesso da Sua Frota com Tecnologia
+                </h2>
+                <p class="lead-text" data-i18n="about_lead">
+                  Somos uma plataforma dedicada à gestão inteligente de frotas,
+                  desenvolvida para empresas que querem reduzir custos, aumentar
+                  a eficiência e tomar decisões com base em dados reais.
+                </p>
+                <p class="mb-4 description">
+                  Simplificar a gestão do dia a dia da sua frota — desde o
+                  controlo de veículos, clientes, Contratos, relatórios até
+                  check-in e check-out . Tudo numa plataforma acessível em
+                  qualquer dispositivo, a qualquer hora.
+                </p>
+                <div class="features-grid">
+                  <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                    <a
+                      href="about.html"
+                      class="btn btn-primary cta-button d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill"
+                    >
+                      <span>Saber mais</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Vantagens do RentalGoo</h2>
+          <p>
+            Descubra como o RentalGoo transforma a gestão de carros de aluguer
+            com mais controlo, eficiência e segurança.
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-4">
+            <!-- 1 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <div class="icon-wrapper">
+                  <i class="bi bi-car-front-fill"></i>
+                </div>
+                <h3>Controle total da frota</h3>
+                <p>
+                  Visualize veículos disponíveis, alugados, em manutenção ou em
+                  check-in/check-out em tempo real, garantindo organização e
+                  decisões rápidas.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <div class="icon-wrapper">
+                  <i class="bi bi-file-earmark-text"></i>
+                </div>
+                <h3>Gestão de contratos</h3>
+                <p>
+                  Centralize contratos, renovações e vencimentos com segurança,
+                  reduzindo erros manuais e melhorando o controlo operacional.
+                </p>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <div class="icon-wrapper">
+                  <i class="bi bi-arrow-left-right"></i>
+                </div>
+                <h3>Check-in / Check-out rápido</h3>
+                <p>
+                  Registe quilometragem, combustível e estado do veículo de
+                  forma digital, reduzindo falhas e conflitos.
+                </p>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <div class="icon-wrapper"><i class="bi bi-tools"></i></div>
+                <h3>Manutenção preventiva</h3>
+                <p>
+                  Receba alertas automáticos para revisões e inspeções, evitando
+                  avarias e aumentando a vida útil da frota.
+                </p>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <div class="icon-wrapper"><i class="bi bi-cash-stack"></i></div>
+                <h3>Redução de custos</h3>
+                <p>
+                  Controle despesas com combustível, seguros e reparações,
+                  aumentando a rentabilidade do negócio.
+                </p>
+              </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card">
+                <div class="icon-wrapper">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <h3>Gestão de clientes</h3>
+                <p>
+                  Organize dados, histórico de alugueres e pagamentos para
+                  melhorar o atendimento e fidelização.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2 data-i18n="portfolio_title">Funcionalidades</h2>
+          <p data-i18n="portfolio_sub">
+            Conheça algumas das funcionalidades e projectos desenvolvidos na
+            nossa plataforma.
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <!-- Tabs -->
+          <!-- Tabs -->
+          <div class="filters-wrapper">
+            <ul class="portfolio-filters" id="rsTabs">
+              <li class="rs-tab filter-active" data-tab="clientes">Clientes</li>
+              <li class="rs-tab" data-tab="relatorios">Relatórios</li>
+              <li class="rs-tab" data-tab="contratos">Contratos</li>
+              <li class="rs-tab" data-tab="checkin">Check-in / Check-out</li>
+              <li class="rs-tab" data-tab="frotas">Frotas de carro</li>
+            </ul>
+          </div>
+
+          <div class="rentsyst-block mb-5" data-aos="fade-up">
+            <div class="rs-content">
+              <!-- Clientes -->
+              <div class="rs-panel active" data-panel="clientes">
+                <div class="row align-items-center g-4">
+                  <div class="col-lg-4">
+                    <h2>Gestão completa de clientes</h2>
+                    <p class="fs-6">
+                      Centralize todas as informações dos seus clientes. Tenha
+                      histórico de alugueres, preferências e dados importantes
+                      para oferecer um atendimento mais personalizado e
+                      profissional.
+                    </p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="rs-coverflow" data-coverflow>
+                      <div class="rs-cf-slide">
+                        <img src="assets/img/portfolio/CLIENTES.jpg" />
+                      </div>
+                    </div>
+                    <div class="rs-cf-controls">
+                      <button class="rs-cf-btn cf-prev">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="15 18 9 12 15 6" />
+                        </svg>
+                      </button>
+                      <div class="rs-cf-dots"></div>
+                      <button class="rs-cf-btn cf-next">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="9 18 15 12 9 6" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Relatórios -->
+              <div class="rs-panel" data-panel="relatorios">
+                <div class="row align-items-center g-4">
+                  <div class="col-lg-4">
+                    <h2>Relatórios e análises inteligentes</h2>
+                    <p class="fs-6">
+                      Acompanhe o desempenho do seu negócio com relatórios
+                      detalhados de faturação, ocupação de frota, lucros e
+                      estatísticas em tempo real.
+                    </p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="rs-coverflow" data-coverflow>
+                      <div class="rs-cf-slide">
+                        <img src="assets/img/portfolio/RELATORIO_1.jpg" />
+                      </div>
+                    </div>
+                    <div class="rs-cf-controls">
+                      <button class="rs-cf-btn cf-prev">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="15 18 9 12 15 6" />
+                        </svg>
+                      </button>
+                      <div class="rs-cf-dots"></div>
+                      <button class="rs-cf-btn cf-next">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="9 18 15 12 9 6" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Contratos -->
+              <div class="rs-panel" data-panel="contratos">
+                <div class="row align-items-center g-4">
+                  <div class="col-lg-4">
+                    <h2>Gestão de contratos</h2>
+                    <p class="fs-6">
+                      Crie, armazene e gerencie contratos de forma digital.
+                      Automatize assinaturas, prazos e condições para maior
+                      segurança e organização.
+                    </p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="rs-coverflow" data-coverflow>
+                      <div class="rs-cf-slide">
+                        <img src="assets/img/portfolio/CONTRATOS.jpg" />
+                      </div>
+                    </div>
+                    <div class="rs-cf-controls">
+                      <button class="rs-cf-btn cf-prev">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="15 18 9 12 15 6" />
+                        </svg>
+                      </button>
+                      <div class="rs-cf-dots"></div>
+                      <button class="rs-cf-btn cf-next">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="9 18 15 12 9 6" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- checkin-->
+              <div class="rs-panel" data-panel="checkin">
+                <div class="row align-items-center g-4">
+                  <div class="col-lg-4">
+                    <h2>Check-in e Check-out rápido</h2>
+                    <p class="fs-6">
+                      Simplifique o processo de entrega e devolução de veículos
+                      com registo automático de horários, estado do veículo e
+                      documentação associada.
+                    </p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="rs-coverflow" data-coverflow>
+                      <div class="rs-cf-slide">
+                        <img
+                          src="assets/img/portfolio/CHECK_IN_CHECK_OUT.jpg"
+                        />
+                      </div>
+                    </div>
+                    <div class="rs-cf-controls">
+                      <button class="rs-cf-btn cf-prev">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="15 18 9 12 15 6" />
+                        </svg>
+                      </button>
+                      <div class="rs-cf-dots"></div>
+                      <button class="rs-cf-btn cf-next">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="9 18 15 12 9 6" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Frotas -->
+              <div class="rs-panel" data-panel="frotas">
+                <div class="row align-items-center g-4">
+                  <div class="col-lg-4">
+                    <h2>Gestão de frota de veículos</h2>
+                    <p class="fs-6">
+                      Controle total da sua frota com informações sobre
+                      disponibilidade, manutenção, localização e estado de cada
+                      veículo em tempo real.
+                    </p>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="rs-coverflow" data-coverflow>
+                      <div class="rs-cf-slide">
+                        <img src="assets/img/portfolio/FROTAS.jpg" />
+                      </div>
+                    </div>
+                    <div class="rs-cf-controls">
+                      <button class="rs-cf-btn cf-prev">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="15 18 9 12 15 6" />
+                        </svg>
+                      </button>
+                      <div class="rs-cf-dots"></div>
+                      <button class="rs-cf-btn cf-next">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                        >
+                          <polyline points="9 18 15 12 9 6" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="cta-section" data-aos="zoom-in" data-aos-delay="300">
+            <div class="cta-content">
+              <span class="cta-label">
+                <i class="bi bi-lightning-charge-fill"></i>
+                <span data-i18n="cta_label">Pronto para Começar?</span>
+              </span>
+              <h3 data-i18n="cta_title">
+                Gerencie a sua frota com mais controlo e eficiência
+              </h3>
+              <p data-i18n="cta_text">
+                Tenha controlo total dos seus veículos, reservas, manutenção e
+                relatórios numa única plataforma simples, rápida e segura.
+              </p>
+              <div class="cta-buttons">
+                <a href="register.html" class="btn-cta-primary">
+                  <span> Registrar-se</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+                <a href="login.html" class="btn-cta-secondary">
+                  <i class="bi bi-arrow-right"></i>
+                  <span>Entrar</span>
+                </a>
+              </div>
+            </div>
+            <div class="cta-decoration">
+              <div class="floating-shape shape-1"></div>
+              <div class="floating-shape shape-2"></div>
+              <div class="floating-shape shape-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section id="plans" class="pricing section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2 data-i18n="plans_title">Planos</h2>
+          <p data-i18n="plans_sub">
+            Escolha o plano ideal para gerir a sua frota com eficiência
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <!-- PLANO BÁSICO - 49 € -->
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pricing-item">
+                <h3>Plano Básico</h3>
+                <h4 class="price">
+                  49 €
+                  <span>/mês</span>
+                </h4>
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Até 15 veículos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Dashboard operacional</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Gestão de veículos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Gestão de clientes</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Gestão de tipos de danos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Gestão Contratos básicos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Check-in / Check-out</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Relatórios básicos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>5 Utilizadores</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Suporte por e-mail e whatsapp</span>
+                  </li>
+                </ul>
+                <a href="#" class="buy-btn">Escolher Plano</a>
+              </div>
+            </div>
+            <!-- End Plano Básico -->
+
+            <!-- PLANO PROFISSIONAL - 109 € (Destaque) -->
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pricing-item featured">
+                <h3>Plano Profissional</h3>
+                <h4 class="price">
+                  109 €
+                  <span>/mês</span>
+                </h4>
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Até 50 veículos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Dashboard operacional</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Gestão de veículos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Gestão de clientes</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Gestão de tipos de danos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Gestão Contratos avançados</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Check-in / Check-out</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Relatórios avançados</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>10 Utilizadores</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Suporte por e-mail e whatsapp</span>
+                  </li>
+                </ul>
+                <a href="#" class="buy-btn">Escolher Plano</a>
+              </div>
+            </div>
+            <!-- End Plano Profissional -->
+
+            <!-- PLANO EMPRESARIAL - 179 € -->
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pricing-item">
+                <h3>Plano Empresarial</h3>
+                <h4 class="price">
+                  179 €
+                  <span>/mês</span>
+                </h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> <span>50+ veículos</span></li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Dashboard operacional</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Gestão de veículos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> <span>Gestão de clientes</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Gestão de tipos de danos</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Gestão Contratos avançados</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Check-in / Check-out</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Relatórios avançados</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Utilizadores ilimitados</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Suporte por e-mail e whatsapp</span>
+                  </li>
+                </ul>
+                <a href="#" class="buy-btn">Escolher Plano</a>
+              </div>
+            </div>
+            <!-- End Plano Empresarial -->
+          </div>
+        </div>
+      </section>
+      <!-- /Pricing Section -->
+
+      <section id="why-us" class="faq padding-section">
+        <div class="container">
+          <div class="text-center title-group mb-5">
+            <h3 data-i18n="faq_title">Dúvidas Frequentes</h3>
+            <hr class="divisor" />
+            <p data-i18n="faq_sub">
+              Ainda tem dúvida sobre o RentalGoo? Veja algumas dúvidas mais
+              comuns:
+            </p>
+          </div>
+
+          <div class="row mb-5">
+            <div
+              class="col-md-12 d-flex align-items-center"
+              data-aos="fade-left"
+            >
+              <div class="accordion w-100" id="accordionFaq">
+                <!-- ITEM 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                    >
+                      <span data-i18n="faq1_q"
+                        >O sistema consegue identificar o condutor responsável
+                        pela multa?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq1_a">
+                      Durante o cadastro da infração, o sistema faz uma leitura
+                      do banco de dados das viagens cadastradas pelos
+                      condutores, identificando quem é responsável pela infração
+                      naquele determinado horário e dia.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                    >
+                      <span data-i18n="faq2_q"
+                        >Posso Registrar vários veículos?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq2_a">
+                      Sim, o sistema permite o cadastro de múltiplos veículos
+                      para melhor gestão da frota.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                    >
+                      <span data-i18n="faq3_q"
+                        >O sistema funciona em tempo real?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq3_a">
+                      Sim, todas as informações são atualizadas em tempo real,
+                      permitindo um controle eficiente.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 4 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                    >
+                      <span data-i18n="faq4_q"
+                        >Posso aceder à plataforma pelo telemóvel?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq4_a">
+                      Sim, a plataforma é totalmente responsiva e acessível em
+                      qualquer dispositivo — computador, tablet ou telemóvel —
+                      bastando ter ligação à Internet.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 5 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                    >
+                      <span data-i18n="faq5_q"
+                        >Como funciona o período de teste gratuito?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq5_a">
+                      Oferecemos 14 dias de teste gratuito sem necessidade de
+                      cartão de crédito. Durante esse período tem acesso a todas
+                      as funcionalidades do plano escolhido.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 6 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix"
+                    >
+                      <span data-i18n="faq6_q"
+                        >Os meus dados estão seguros na plataforma?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseSix"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq6_a">
+                      Sim, utilizamos encriptação SSL em todas as comunicações e
+                      os dados são armazenados em servidores seguros com backups
+                      automáticos diários.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 7 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSeven"
+                    >
+                      <span data-i18n="faq7_q"
+                        >Posso integrar a plataforma com outros sistemas?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseSeven"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq7_a">
+                      Sim, disponibilizamos uma API completa que permite
+                      integrar a plataforma com ERP, sistemas de faturação, GPS
+                      externos e outros softwares de gestão.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 8 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseEight"
+                    >
+                      <span data-i18n="faq8_q"
+                        >Como posso cancelar a minha subscrição?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseEight"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq8_a">
+                      Pode cancelar a sua subscrição a qualquer momento
+                      diretamente nas definições da conta, sem qualquer
+                      penalização. Os dados ficam disponíveis por 30 dias após o
+                      cancelamento.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 9 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseNine"
+                    >
+                      <span data-i18n="faq9_q"
+                        >Quantos utilizadores posso adicionar à minha
+                        conta?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseNine"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq9_a">
+                      No plano Starter pode adicionar até 5 utilizadores. No
+                      plano Profissional até 20 e no plano Empresarial o número
+                      de utilizadores é ilimitado.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ITEM 10 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTen"
+                    >
+                      <span data-i18n="faq10_q"
+                        >O suporte técnico está disponível em português?</span
+                      >
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTen"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body" data-i18n="faq10_a">
+                      Sim, o nosso suporte técnico está disponível em português
+                      e inglês, por email e chat, de segunda a sexta das 9h às
+                      18h. O plano Empresarial inclui suporte dedicado 24/7.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials" class="testimonials section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2 data-i18n="testimonials_title">Depoimentos</h2>
+          <p data-i18n="testimonials_sub">
+            Veja o que nossos clientes dizem sobre nossos serviços e
+            experiências conosco
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <!-- Sidebar Esquerda -->
+            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="150">
+              <div class="testimonials-sidebar">
+                <div class="avatar-stack">
+                  <img
+                    src="assets/img/person/processando.png"
+                    alt="Cliente satisfeito"
+                    class="avatar"
+                    loading="lazy"
+                  />
+                  <img
+                    src="assets/img/person/processando.png"
+                    alt="Cliente satisfeito"
+                    class="avatar"
+                    loading="lazy"
+                  />
+                  <img
+                    src="assets/img/person/processando.png"
+                    alt="Cliente satisfeito"
+                    class="avatar"
+                    loading="lazy"
+                  />
+                  <img
+                    src="assets/img/person/processando.png"
+                    alt="Cliente satisfeito"
+                    class="avatar"
+                    loading="lazy"
+                  />
+                  <span class="avatar-count">+2.5k</span>
+                </div>
+                <div class="sidebar-content">
+                  <span class="satisfied-badge">
+                    <i class="bi bi-heart-fill"></i>
+                    <span data-i18n="testimonials_badge"
+                      >Clientes Satisfeitos</span
+                    >
+                  </span>
+                  <h3>
+                    Descubra o que os nossos clientes dizem sobre o nosso
+                    sistema
+                  </h3>
+                  <p>
+                    Empresas destacam a facilidade de uso, o controlo das
+                    operações e a eficiência na gestão de frotas, tornando o dia
+                    a dia mais simples e produtivo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="col-lg-8" data-aos="fade-left" data-aos-delay="200">
+              <div class="testimonials-carousel swiper">
+                <div class="swiper-wrapper">
+                  <!-- Depoimento 1 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="card-top">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                        <span class="quote-mark"
+                          ><i class="bi bi-quote"></i
+                        ></span>
+                      </div>
+
+                      <p class="testimonial-text">
+                        Desde que começámos a usar a plataforma, conseguimos ter
+                        um controlo muito mais rigoroso da nossa frota.
+                        Reduzimos custos operacionais e melhorámos a gestão de
+                        infrações e manutenção.
+                      </p>
+
+                      <div class="author-info">
+                        <img
+                          src="assets/img/person/processando.png"
+                          alt="Cliente"
+                          class="author-img"
+                          loading="lazy"
+                        />
+                        <div class="author-details">
+                          <h5>Ana Martins</h5>
+                          <span>Diretora de Operações</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Depoimento 2 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="card-top">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                        <span class="quote-mark"
+                          ><i class="bi bi-quote"></i
+                        ></span>
+                      </div>
+
+                      <p class="testimonial-text">
+                        A plataforma é muito intuitiva e facilitou bastante o
+                        acompanhamento dos veículos e contratos. Hoje temos tudo
+                        organizado num único sistema.
+                      </p>
+
+                      <div class="author-info">
+                        <img
+                          src="assets/img/person/processando.png"
+                          alt="Cliente"
+                          class="author-img"
+                          loading="lazy"
+                        />
+                        <div class="author-details">
+                          <h5>Carlos Mendes</h5>
+                          <span>Gestor de Frota</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Depoimento 3 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="card-top">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                        <span class="quote-mark"
+                          ><i class="bi bi-quote"></i
+                        ></span>
+                      </div>
+
+                      <p class="testimonial-text">
+                        Conseguimos melhorar os nossos processos internos,
+                        principalmente no controlo de check-in e check-out dos
+                        veículos. Tornou o nosso trabalho muito mais eficiente.
+                      </p>
+
+                      <div class="author-info">
+                        <img
+                          src="assets/img/person/processando.png"
+                          alt="Cliente"
+                          class="author-img"
+                          loading="lazy"
+                        />
+                        <div class="author-details">
+                          <h5>Juliana Rocha</h5>
+                          <span>Supervisora Administrativa</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Depoimento 4 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="card-top">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                        <span class="quote-mark"
+                          ><i class="bi bi-quote"></i
+                        ></span>
+                      </div>
+
+                      <p class="testimonial-text">
+                        Interface moderna, rápida e fácil de usar. Mesmo a nossa
+                        equipa com pouca experiência adaptou-se rapidamente ao
+                        sistema.
+                      </p>
+
+                      <div class="author-info">
+                        <img
+                          src="assets/img/person/processando.png"
+                          alt="Cliente"
+                          class="author-img"
+                          loading="lazy"
+                        />
+                        <div class="author-details">
+                          <h5>Ricardo Lopes</h5>
+                          <span>Coordenador Logístico</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Depoimento 5 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="card-top">
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i
+                          ><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                        <span class="quote-mark"
+                          ><i class="bi bi-quote"></i
+                        ></span>
+                      </div>
+
+                      <p class="testimonial-text">
+                        Uma solução completa para gestão de frotas. Os
+                        relatórios ajudam bastante na tomada de decisões e no
+                        controlo dos custos da empresa.
+                      </p>
+
+                      <div class="author-info">
+                        <img
+                          src="assets/img/person/processando.png"
+                          alt="Cliente"
+                          class="author-img"
+                          loading="lazy"
+                        />
+                        <div class="author-details">
+                          <h5>Fernanda Alves</h5>
+                          <span>Gerente Financeira</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="suport" class="services section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Suporte</h2>
+          <p>
+            Nossa equipe está pronta para ajudar você a resolver qualquer
+            dúvida.
+          </p>
+        </div>
+
+        <div
+          id="suport"
+          class="container"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="row g-4">
+            <!-- Card 1 - WhatsApp -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card text-center">
+                <div class="icon-wrapper mx-auto text-center">
+                  <i class="bi bi-whatsapp"></i>
+                </div>
+                <h3>WhatsApp</h3>
+                <p>
+                  Fale diretamente com nossa equipe e receba atendimento rápido
+                  e prático.
+                </p>
+                <a
+                  href="https://wa.me/351962925351"
+                  target="_blank"
+                  class="d-block text-center"
+                >
+                  Iniciar Conversa
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 2 - Email -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card text-center">
+                <div class="icon-wrapper mx-auto text-center">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <h3>Email</h3>
+                <p>Envie sua dúvida ou problema detalhado para nossa equipe.</p>
+                <a
+                  href="info@rentalgoo.com"
+                  target="_blank"
+                  class="d-block text-center"
+                >
+                  info@rentalgoo.com
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 3 - Horário -->
+            <div class="col-lg-4 col-md-6">
+              <div class="service-card text-center">
+                <div class="icon-wrapper mx-auto text-center">
+                  <i class="bi bi-clock"></i>
+                </div>
+                <h3>Horário de Atendimento</h3>
+                <p>Segunda a sexta, das 9h às 18h (exceto feriados).</p>
+                <a href="#" class="d-block text-center"> Ver horários </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer-custom">
+      <div class="container">
+        <div
+          class="footer-top d-flex justify-content-between align-items-center flex-wrap"
+        >
+          <!-- Logo -->
+          <div class="footer-left">
+            <a href="index.html" class="logo">
+              <span class="sitename">RentalGoo</span>
+            </a>
+          </div>
+
+          <!-- Links -->
+          <div class="footer-links d-flex gap-4">
+            <a href="#about" data-i18n="footer_about">Sobre</a>
+            <a href="#why-us" data-i18n="footer_faq">FAQ</a>
+            <a href="#suport">Suporte</a>
+            <a
+              href="assets/pdf/Política_de_Privacidade_da_RentalGoo_Ltd.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Política de Privacidade
+            </a>
+            <a
+              href="assets/pdf/Termos_e_Condições_de_Uso_RentalGoo.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Termos e Condições
+            </a>
+          </div>
+
+          <!-- Social -->
+          <div class="social-links d-flex gap-3">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div
+          class="footer-bottom d-flex justify-content-between align-items-center flex-wrap"
+        >
+          <!-- Idioma -->
+          <div class="lang-dropdown" id="langDropdown">
+            <button class="choose-lang" id="langToggle">
+              <img src="https://flagcdn.com/w20/pt.png" id="currentFlag" />
+              <span id="currentLang">Português</span>
+              <i class="bi bi-chevron-down"></i>
+            </button>
+            <div class="lang-menu">
+              <a href="#" data-lang="pt">
+                <img src="https://flagcdn.com/w20/pt.png" /> Português
+              </a>
+              <a href="#" data-lang="en">
+                <img src="https://flagcdn.com/w20/gb.png" /> English
+              </a>
+            </div>
+          </div>
+
+          <!-- Copyright -->
+          <div class="footer-legal text-end">
+            <small data-i18n="footer_copy"
+              >© 2026 RentalGoo. Todos os direitos reservados.</small
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/portf.js"></script>
+    <script src="assets/js/depoi.js"></script>
+  </body>
+</html>
