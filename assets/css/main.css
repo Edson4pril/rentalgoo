@@ -1035,6 +1035,38 @@ section,
   transition: transform 0.3s ease;
 }
 
+/* Generic CTA button — same theme as the hero "Cadastrar-se" button,
+   usable outside the hero (e.g. the About section "Saber mais"). */
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta-button i {
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background: color-mix(in srgb, var(--accent-color), black 12%);
+  color: var(--contrast-color);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px
+    color-mix(in srgb, var(--accent-color), transparent 55%);
+}
+
+.cta-button:hover i {
+  transform: translateX(4px);
+}
+
 .hero .hero-content .hero-cta .cta-button:hover {
   background: color-mix(in srgb, var(--accent-color), black 12%);
   transform: translateY(-2px);

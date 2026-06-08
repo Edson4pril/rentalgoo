@@ -32,11 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
     iframe.style.width = '100%';
     iframe.style.border = '0';
   }
-  var viewAll = document.getElementById('plans-view-all');
-  if (viewAll) {
-    viewAll.setAttribute('href', appUrl + '/plans');
-  }
-
   // Auto-resize the embed iframe to its content height (no empty space below).
   window.addEventListener('message', function (event) {
     var data = event.data || {};
